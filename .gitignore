@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+myvenv/
+.venv/
+
+# Django
+*.log
+staticfiles/
+media/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+.idea/
+
+# Mac / Linux
+.DS_Store
+
+# Windows
+Thumbs.db
